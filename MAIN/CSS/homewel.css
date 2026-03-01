@@ -1,0 +1,310 @@
+@media  (max-width: 767px) {
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100PX;
+    width: 100%;
+    font-size: xx-large;
+    padding-left: 20px;
+    background-color: transparent;
+}
+.main{
+
+    
+    height: 700px;
+    margin-top: 30px;
+    
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+}
+      .text {
+  font-size: 14px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.more-text {
+  display: none;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked ~ .more-text {
+  display: inline;
+}
+
+#toggle:checked ~ .read-more {
+  display: none;
+}
+
+.read-more {
+  color: #0066cc;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.welpara{
+    font-size: large;
+    
+    height: 250px;
+    padding-left: 10px;
+}
+
+.MDIV{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    margin-top: 10px;
+    
+    height: 210px;
+}
+.PDIV{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+
+  
+    
+}
+.PdivMU{
+  font-size: x-large;
+    
+    text-decoration:none;
+    
+}
+.PdivMO{
+  font-size: x-large;
+  text-decoration: none;
+    
+    
+}
+.Mdiv{
+    
+   
+    height: 200px;
+    width: 190px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.music-img{
+width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+.movie-img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+.footer{
+   
+
+  
+    height: 50px;
+    font-size: 21px;
+   
+
+}
+.footer-p{
+    display: flex;
+    
+}
+.footer-para{
+    margin-top: 10px;
+    
+    justify-content: center;
+    padding-left: 35px;
+    
+}
+
+
+}
+
+@media (min-width: 768px){
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80PX;
+    width: 100%;
+    font-size: xx-large;
+    padding-left: 20px;
+   
+}
+.main{
+
+    
+    height: 450px;
+    margin-top: 30px;
+    
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.more-text {
+  display: none;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked ~ .more-text {
+  display: inline;
+}
+
+#toggle:checked ~ .read-more {
+  display: none;
+}
+
+.read-more {
+  color: #0066cc;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.welpara{
+    font-size: large;
+    
+    height: 100px;
+    padding-left: 10px;
+}
+
+.MDIV{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    margin-top: 10px;
+    
+    height: 210px;
+}
+.PDIV{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+  
+    
+    
+}
+.PdivMU{
+  font-size: x-large;
+    width: 200px
+    text-decoration: none;
+    
+}
+.PdivMO{
+  font-size: x-large;
+  text-decoration: none;
+    
+    
+}
+.Mdiv{
+    
+   background-color: black;
+    height: 200px;
+    width: 250px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.inplog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    margin-left: 123px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+.ankertag{
+    height: 30px;
+    font-size: 21px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.music-img{
+width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+.movie-img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+.footer{
+   
+
+  
+    height: 50px;
+    font-size: 21px;
+   
+
+}
+.footer-p{
+    display: flex;
+    width: 100%;
+}
+.footer-para{
+    margin-top: 10px;
+    width: 500px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    
+}
+
+}

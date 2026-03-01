@@ -1,0 +1,250 @@
+@media  (max-width: 767px) {
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.spotstar{
+    width: 100%;
+    position: fixed;
+    height: 60px;
+}
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    top:0;
+    height: 100PX;
+    width: 100%;
+    font-size: xx-large;
+    padding-left: 20px;
+    background-color: white;
+    z-index:1;
+
+}
+.main{
+
+    background-color: white;
+    height: 1880px;
+    margin-bottom: 100px;
+}
+h3{
+    padding-left: 10px;
+}
+.name-img{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.actor{
+    height: 880px;
+    width: 100%;
+    background-color:white;
+}
+.actor-heading{
+    color: black;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    margin-top: 73px;
+    padding-top: 20px;
+}
+.actor-heading2{
+    color: black;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+   
+    padding-top: 20px;
+}
+.actor-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+   color: black;
+   background-color: white;
+   height: 770px;
+   width: 100%;
+   padding-left: 30px;
+}
+.actor-images2{
+    color: b;
+    background-color: white;
+    height: 200px;
+    width: 180px;
+    border-radius: 20px;
+
+}
+.actor-images3{
+    background-color: white;
+    color: black;
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+     border-radius: 20px;
+}
+.footer1{
+   width: 100%;
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    background-color: white;
+    
+}
+.footer-p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80PX;
+    width: 100%;
+    
+}
+.footer-para{
+    margin-top: 10px;
+    
+    justify-content: center;
+    padding-left: 35px;
+    
+}
+.imgs[
+    height: 100PX;
+    width: 100PX;
+
+]
+.imgs{
+    border: 20px;
+    display: block;
+    height: 100%;
+    width: 100%
+    object-fit:cover;
+    
+}
+a{
+    text-decoration: none;}
+}    
+
+
+@media (min-width: 768px){
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.spotstar{
+    width: 100%;
+    position: fixed;
+    height: 60px;
+}
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    top:0;
+    height: 100PX;
+    width: 100%;
+    font-size: xx-large;
+    padding-left: 20px;
+    background-color: white;
+    z-index:1;
+
+}
+.main{
+
+    background-color: white;
+    height: 1010px;
+    margin-bottom: 100px;
+}
+h3{
+    padding-left: 10px;
+}
+.actor{
+    height: 450px;
+    width: 100%;
+    background-color:white 
+    ;
+}
+.actor-heading{
+    color: black;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    margin-top: 73px;
+    padding-top: 20px;
+}
+.actor-images{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+   color: black;
+   background-color: white;
+   height: 340px;
+   width: 100%;
+   padding-left: 20px;
+}
+.name-img{
+    margin-top: 15px;
+    padding-left: 35px;
+}
+.actor-images2{
+    color: black;
+    background-color: white;
+    height: 250px;
+    width: 210px;
+    border-radius: 20px;
+
+}
+.actor-images3{
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 100%;
+     border-radius: 20px;
+}
+.footer1{
+   width: 100%;
+    position: fixed;+
+    height: 60px;
+    bottom: 0;
+    background-color: white;
+    
+}
+.footer-p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80PX;
+    width: 100%;
+    
+}
+.footer-para{
+    margin-top: 10px;
+    
+    justify-content: center;
+    padding-left: 35px;
+    
+}
+.imgs{
+    border: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+a{
+    text-decoration: none;}
+}
